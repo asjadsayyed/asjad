@@ -1,0 +1,9 @@
+>matrix1 <- makecachematrix(matrix(1:16, nrow = 4, ncol = 4))
+>matrix1$get()
+     [,1] [,2] [,3] [,4]
+[1,]    1    5    9   13
+[2,]    2    6   10   14
+[3,]    3    7   11   15
+[4,]    4    8   12   16
+> matrix1$getiverse()
+NULL
